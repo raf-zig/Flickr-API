@@ -1,0 +1,11 @@
+<%= form_with(url: "/", method: "get") do %>
+    <%= label_tag(:user_id, "Search for API:") %>
+    <%= text_field_tag(:user_id) %>
+    <%= submit_tag"Search" %>
+  <% end %>
+
+<% if @photos %>
+  <% @photos.each do |photo| %>
+    <%= image_tag "#{Flickr.url(photo)}" %>
+  <% end %>
+<% end %>

@@ -1,0 +1,2 @@
+This project allows users to search for photos belonging to different users with Flickr's api.
+Project created as part of [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-flickr-api#solutions) curriculum.
